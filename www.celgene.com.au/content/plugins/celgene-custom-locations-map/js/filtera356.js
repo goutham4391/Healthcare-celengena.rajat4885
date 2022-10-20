@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".celgene-custom-locations-valid-countries").change(function(){var country=$(this).val();var root=$(this).parent().find(".celgene-custom-locations-valid-countries-link").val();window.location.href=root+"?country="+country;});});
